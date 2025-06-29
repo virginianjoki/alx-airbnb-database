@@ -50,7 +50,3 @@ Rating constraints in Reviews could be better handled
 Actions Taken:
 
 Fully normalized geographic data as described above
-
-Created a review_ratings lookup table to standardize rating values
-
-Added proper foreign key constraints for all relationships
