@@ -1,3 +1,4 @@
+Entities and Attributes
  User
 user_id (PK, UUID, Indexed)
 
