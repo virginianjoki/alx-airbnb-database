@@ -1,4 +1,4 @@
-Entities and Attributes
+entities and attributes
  User
 user_id (PK, UUID, Indexed)
 
@@ -99,3 +99,4 @@ User to Review: One-to-Many (One user can write many reviews)
 Property to Review: One-to-Many (One property can have many reviews)
 
 User to Message: One-to-Many (One user can send/receive many messages)
+
