@@ -1,4 +1,4 @@
--- Total number of bookings per user
+-- Query 1: Total bookings per user
 SELECT 
     users.id AS user_id,
     users.name AS user_name,
@@ -23,5 +23,4 @@ GROUP BY
     property_id
 ORDER BY 
     booking_rank;
-
 
