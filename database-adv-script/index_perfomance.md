@@ -3,7 +3,7 @@
 
   user_id --> JOINs, WHERE
 
-- email --> WHERE (login)
+  email --> WHERE (login)
 
  BOOKINGS table:
 
