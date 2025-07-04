@@ -19,3 +19,13 @@ WHERE id IN (
     HAVING AVG(rating) > 4.0
 )
 ORDER BY id;
+
+## Task 2: Aggregations and Window Functions
+
+### 1. Total Bookings Per User
+```sql
+SELECT users.id, users.name, COUNT(bookings.id) AS total_bookings
+FROM users
+LEFT JOIN bookings ON users.id = bookings.user_id
+GROUP BY users.id, users.name
+ORDER BY total_bookings DESC;
